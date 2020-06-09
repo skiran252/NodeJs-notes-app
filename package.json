@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/skiran252/NodeJs-notes-app/issues"
   },
-  "homepage": "https://github.com/skiran252/NodeJs-notes-app#readme"
+  "homepage": "https://github.com/skiran252/NodeJs-notes-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.0.0"
+  }
 }

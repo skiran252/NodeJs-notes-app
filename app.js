@@ -1,8 +1,11 @@
 const add = require('./utils.js');
 
-//or
+// const validator = require('validator')
 const notesgetter = require('./notes.js');
 
-const md = notesgetter('notes1.txt');
+const chalk = require('chalk')
 
-console.log(md);
+const msg = notesgetter('notes1.txt');
+
+const specialmsg=chalk.bold.inverse.red("Failure")
+console.log(specialmsg)
